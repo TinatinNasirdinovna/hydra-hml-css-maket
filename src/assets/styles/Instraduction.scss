@@ -1,0 +1,32 @@
+#instraduction {
+    padding: 90px 0;
+  .instraduction {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    &--title {
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.88px;
+      }
+      &__arrow {
+        display: flex;
+        gap: 70px;
+        align-items: center;
+        h1 {
+          font-size: 36px;
+          font-weight: 300;
+          line-height: 43.88px;
+        }
+      }
+    }
+    p {
+      width: 652px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.5px;
+    }
+  }
+}

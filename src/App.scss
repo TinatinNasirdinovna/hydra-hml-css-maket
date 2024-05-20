@@ -1,0 +1,39 @@
+@import './assets/styles/Header.scss';
+@import './assets/styles/Footer.scss';
+@import './assets/styles/Hero.scss';
+@import './assets/styles/ConnectInfo.scss';
+@import './assets/styles/Instraduction.scss';
+@import './assets/styles/About.scss';
+@import './assets/styles/Button.scss';
+@import './assets/styles/Cards.scss';
+@import './assets/styles/Technologies.scss';
+@import './assets/styles/Logos.scss';
+@import './assets/styles/Steps.scss';
+@import './assets/styles/JoinHydry.scss';
+@import './assets/styles/Main.scss';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background: rgba(48, 44, 66, 1);
+    font-family: sans-serif;
+}
